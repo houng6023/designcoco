@@ -1,0 +1,136 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+body {color: #666; font-family: 'Noto Sans KR', sans-serif;
+font-size: 15px;}
+.row {max-width: 1200px; margin: 0 auto; padding: 0 10px;}
+
+#header   .outer {background-color: #f3f3f3 ;}
+#header   .outer  .depth1{float: right;}
+#header   .outer  .depth1 li 
+{padding: 10px 20px; border-left:1px solid #999;
+font-size: 12px; color: #999; display: inline-block;}
+#header   .outer  .depth1 li:last-child
+{border-right:1px solid #999;}
+
+/* 로고구역 */
+#header .logo { padding: 15px 0px;}
+#header .row  > h1 {float: left;} 
+#header .row .depth2 {float: right;} 
+#header .row .depth2 li {display: inline-block;
+padding: 12px 15px 0px ; font-weight: bold;}
+
+
+
+/* section 구역 */
+
+/* article1 구역 */
+#section .article1  .slide1
+{background:url(../img/main_img3.jpg) no-repeat center;
+background-size: cover; height: 650px; position: relative;}
+#section .article1  .slide1 .slide1text
+{position: absolute; top: 35%; left: 50%;
+transform: translate(-50%, -50%);}
+#section .article1  .slide1 .slide1text
+{color: #fff; text-align: center;}
+#section .article1  .slide1 .slide1text p 
+{padding: 15px 0px; line-height: 1.5;}
+#section .article1  .slide1 .slide1text p:first-child
+{font-size: 42px; font-weight:1000;}
+#section .article1  .slide1 .slide1text p:last-child
+{font-size: 16px;}
+#section .article1  .slide1 .slide1text a
+{font-size: 15px;padding: 8px 35px; border: 1px solid #fff;
+display: inline-block; margin-top: 30px;}
+
+
+/* article2 구역 */
+#section .article2 {padding: 70px 0px;}
+#section .article2 p {text-align: center; color: #000;
+padding: 10px;}
+#section .article2  p:first-child
+{font-size: 36px; font-weight: bold;}
+#section .article2  p:last-child
+{font-size: 14px; margin-top: 20px;}
+#section .article2 .depth3
+{overflow: hidden;
+color: #fff;}
+#section .article2 .depth3 > li
+{height: 520px; float: left;
+width: 24%; position: relative; margin-right: 1%;
+color: #fff}
+#section .article2 .depth3 > li:nth-child(1)
+{background: url(../img/what1.jpg) no-repeat ;
+background-size: cover;}
+#section .article2 .depth3 > li:nth-child(2)
+{background: url(../img/what2.jpg) no-repeat ;
+    background-size: cover;}
+#section .article2 .depth3 > li:nth-child(3)
+{background: url(../img/what3.jpg) no-repeat ;
+    background-size: cover;}
+#section .article2 .depth3 > li:nth-child(4)
+{background: url(../img/what4.jpg) no-repeat ; 
+    background-size: cover;}
+#section .article2 .depth3 .depth3text 
+{position: absolute; bottom: 10px; left: 10px;
+padding-bottom: 50px;}
+#section .article2 .depth3 .depth3text > p
+{color: #fff; text-align: left;}
+#section .article2 .depth3 .depth3text > p:first-child
+{font-size: 24px;}
+#section .article2 .depth3 .depth3text > p:last-child
+{font-size: 14px;
+margin-bottom: 50px;}
+#section .article2 .depth3 .depth3text  > a
+{border:1px solid #fff;padding: 8px 40px; display: inline-block;
+margin-left: 10px; margin-top: 20px;}
+
+
+/* article3 구역 */
+#section .article3
+{background: url(../img/intro_bg.jpg) no-repeat center;
+background-size: cover; height: 304px;
+color: #fff; text-align: center; position: relative;}
+#section .article3 .article3bg
+{position: absolute; top: 50%; left: 50%;
+transform: translate(-50%,-50%);}
+#section .article3   .article3bg p
+{padding:10px 0px; }
+#section .article3   .article3bg p:first-child
+{font-size: 34px; font-weight: bold;}
+#section .article3  .article3bg p:last-child
+{font-size: 14px;}
+#section .article3 a {font-size: 13px; padding: 8px 30px;
+border:1px #fff solid; display: inline-block;
+margin-top: 20px;}
+
+
+/* article4 구역  */
+#section .article4  {text-align: center; color: #000000;}
+#section .article4 h2 {font-size: 36px; font-weight: bold;
+padding: 50px 0px 20px;}
+#section .article4  p {font-size: 14px; padding-bottom: 20px; color: #333;}
+#section .article4 .product {overflow: hidden;}
+
+#section .article4 .product li {float: left;
+width: 32%; border: 1px solid #999 ;
+margin-right: 1.33%; margin-top: 15px;}
+#section .article4 .product li > p {padding: 10px 25px 20px; }
+#section .article4 .product li > h3 {font-size: 17px; font-weight: bold;
+padding-top: 20px;}
+
+
+
+
+/* footer 구역 */
+#footer {background: #333; color: #ddd;
+padding: 30px 0px; text-align: center; margin-top: 60px;}
+#footer .sns {font-size: 17px;}
+#footer .sns a {padding: 0px 10px;}
+#footer .company {font-size: 12px; padding: 30px 10px;
+line-height: 1.5;}
+#footer .info {font-size: 11px; }
+#footer .info >a {border: 1px solid #ddd; padding: 3px 10px;
+margin: 0px 3px;}
+
